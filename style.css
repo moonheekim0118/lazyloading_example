@@ -1,0 +1,19 @@
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+    opacity: 0;
+    margin-bottom: 5em;
+    float: left;
+}
+
+.fade{
+    transition: all 0.8s;
+    opacity: 1;
+}
